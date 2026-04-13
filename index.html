@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>ST</title>
+
+<link rel="stylesheet" href="css/style.css">
+
+<!-- PWA -->
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#121212">
+
+<!-- iOS -->
+<link rel="apple-touch-icon" href="img/icon.png">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<img src="img/logo.png" class="logo">
+
+<a class="menu" href="vazao.html">Cálculo de Vazão</a>
+
+<a class="menu" href="timer.html">Programação Timer</a>
+
+<a class="menu" href="multiflow.html">Programação Multiflow</a>
+
+<a class="menu" href="consumo.html">Consumo Diário</a>
+
+<a class="menu" href="conversao.html">Conversão Min/Seg</a>
+
+<p style="margin-top:30px;color:#aaa">
+Nota técnica:<br>
+Se for dosar na linha medir pelo filtro da bomba.
+</p>
+
+</div>
+
+<script>
+
+if ("serviceWorker" in navigator) {
+navigator.serviceWorker.register("service-worker.js");
+}
+
+</script>
+
+</body>
+</html>
